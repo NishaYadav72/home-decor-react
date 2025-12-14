@@ -722,21 +722,21 @@ const Home = () => {
         </div>
       </div>
 
-      {/* REQUEST FORM */}
-      <div className="request-wrapper">
-        <div className="request-container">
-          <span style={{ color: "darkgoldenrod", fontSize: "18px" }}>
-            Quick Service Request
-            <br />
-            <span style={{ fontSize: "21px", color: "darkslategrey", fontWeight: "bold" }}>
-              Send Inspection Request
-            </span>
-          </span>
-          <input type="text" placeholder="Enter your full name" />
-          <input type="tel" placeholder="Phone number" />
-          <button type="submit">Send</button>
-        </div>
-      </div>
+     <div className="request-wrapper">
+  <div className="request-container">
+    <span style={{ color: "darkgoldenrod", fontSize: "18px" }}>
+      Quick Service Request
+      <br />
+      <span style={{ fontSize: "21px", color: "darkslategrey", fontWeight: "bold" }}>
+        Send Inspection Request
+      </span>
+    </span>
+    <input type="text" placeholder="Enter your full name" />
+    <input type="tel" placeholder="Phone number" />
+    <button type="submit">Send</button>
+  </div>
+</div>
+
 
       {/* WHO WE SECTION */}
       <section style={{ padding: "60px 20px", backgroundColor: "#fdf4e3" }}>
